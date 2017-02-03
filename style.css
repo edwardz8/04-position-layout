@@ -51,23 +51,40 @@ img {
 
 .health-stats {
   font-size: 1rem;
-  color: ##807b8f;
+  color: #807b8f;
   display: inline-block;
   position: fixed;
   top: 70%;
   margin: 0;
   padding:  2rem 6rem;
   font-size: 1.4rem;
-
 }
 
 .bar-stack {
   display: inline-block;
+  height: 2rem;
 }
 
 .bar {
-  width: 0.5rem;
-  height: 0.7rem;
   background: #bad050;
   border: #a3a3a3 solid 0.2rem;
+  font-size: 2rem;
+}
+
+.health-text__left {
+  color: red;
+}
+
+
+.center-wrapper {
+  position: fixed;
+  margin: 0.5rem;
+  padding: 1rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.skull {
+ max-width: 4rem;
 }
