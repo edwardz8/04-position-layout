@@ -23,5 +23,51 @@ img {
 .section__pic {
   min-height: 100vh;
   background: url('');
-  color: white;
+  color: green;
+}
+
+/*Avatar*/
+
+.wrapper {
+  margin: 0;
+  display: inline-block;
+  float: right;
+  background: green;
+}
+
+.avatar-bottom {
+  position: fixed;
+  display: inline-block;
+  left: 1rem;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  top: 34rem;
+}
+
+.avatar {
+    margin: 0;
+    width: 5rem;
+}
+
+.health-stats {
+  font-size: 1rem;
+  color: ##807b8f;
+  display: inline-block;
+  position: fixed;
+  top: 70%;
+  margin: 0;
+  padding:  2rem 6rem;
+  font-size: 1.4rem;
+
+}
+
+.bar-stack {
+  display: inline-block;
+}
+
+.bar {
+  width: 0.5rem;
+  height: 0.7rem;
+  background: #bad050;
+  border: #a3a3a3 solid 0.2rem;
 }
