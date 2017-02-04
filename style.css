@@ -26,14 +26,7 @@ img {
   color: green;
 }
 
-/*Avatar*/
-
-.wrapper {
-  margin: 0;
-  display: inline-block;
-  float: right;
-  background: green;
-}
+/*Avatar -- Left.Bottom Side of Screen*/
 
 .avatar-bottom {
   position: fixed;
@@ -75,6 +68,7 @@ img {
   color: red;
 }
 
+/*Center Sector*/
 
 .center-wrapper {
   position: fixed;
@@ -88,3 +82,5 @@ img {
 .skull {
  max-width: 4rem;
 }
+
+/*Bottom-Right Side*/
