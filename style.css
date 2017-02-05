@@ -72,18 +72,18 @@ img {
 }
 
 .health-text__left {
+  font-size: 2.5rem;
+  color: #4b4b4b;
+  font-family: 'Exo 2', sans-serif;
+
+}
+
+#two-fifty {
   font-size: 2rem;
-  color: #4b4b4b;
   font-family: 'Exo 2', sans-serif;
-
-}
-
-.two-fifty {
-  font-size: 3rem;
-  font-family: 'Exo 2', sans-serif;
-  font-weight: bolder;
   color: #4b4b4b;
 }
+
 
 #slash {
   color: #1a81df;
@@ -166,16 +166,13 @@ img {
   padding: -1rem;
   font-family: 'Exo 2', sans-serif;
   font-size: 1.4rem;
-  font-weight: bolder;
   color: #4b4b4b;
 }
 
 .forty {
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-family: 'Exo 2', sans-serif;
-  font-weight: bolder;
   color: #4b4b4b;
-  display: inline-block;
 }
 
 #slash-two {
