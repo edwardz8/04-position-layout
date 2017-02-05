@@ -53,7 +53,7 @@ img {
   position: fixed;
   top: 75%;
   margin: 0;
-  padding:  1rem 6rem;
+  padding:  1rem 5rem;
   font-size: 1.4rem;
 }
 
@@ -62,11 +62,12 @@ img {
 }
 
 .bar {
-  background: #bad050;
-  border: #a3a3a3 solid 0.2rem;
+  background: #d2d2d2;
+  border: #d2d2d2 solid 0.2rem;
   border-radius: .3rem;
   display: inline-block;
-  height: 2rem;
+  height: 2.5rem;
+  width: 1rem;
   font-size: 1.5rem;
 }
 
@@ -75,25 +76,30 @@ img {
   font-size: 2rem;
   font-weight: bold;
   color: #4b4b4b;
+  font-family: 'Exo 2', sans-serif;
+
 }
 
 #two-fifty {
-  font-family: Arial;
   font-size: 3rem;
-  font-weight: bold;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bolder;
   color: #4b4b4b;
 }
 
 #slash {
   color: #1a81df;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 2.2rem;
+
 }
 
 /*Center Sector*/
 
 .center-wrapper {
   position: fixed;
-  margin: 0.5rem;
-  padding: 0.5rem;
+  margin: 0;
+  padding: 0;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -75%);
@@ -103,21 +109,23 @@ img {
 .skull {
   display: inline;
   max-width: 5rem;
-
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -100%);
 }
 
 .text {
     text-align: center;
-    font-family: Arial;
-    font-size: 1.5rem;
-    font-weight: bold;
-    position: relative;
+    font-size: 2.3rem;
+    font-weight: bolder;
     display: inline;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .eliminated-text {
   display: inline-block;
   color: red;
+
 }
 
 .eliminated-text__bottom {
@@ -125,23 +133,30 @@ img {
   color: red;
 }
 
+.damage {
+  display: inline;
+  max-width: 5rem;
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -75%);
+}
+
 /*Bottom-Right Side*/
 
 .avatar-bottom-right {
-  font-size: 1rem;
-  color: ##64b322;
+  background: black;
+  margin: 0;
   display: inline-block;
   position: fixed;
-  top: 75%;
-  left: 30%;
-  margin: 0;
-  font-size: 1.4rem;
+  right: 1rem;
+  bottom: 1rem;
+
 }
 
-.gun {
+#gun {
   margin: 0;
-  width: 5rem;
-  color: red;
+  max-width: 15rem;
 }
 
 .ammo-count {
