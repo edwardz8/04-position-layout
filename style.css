@@ -48,12 +48,11 @@ img {
 
 .health-stats {
   color: #807b8f;
-  display: inline-block;
   position: fixed;
   top: 75%;
   margin: 0;
   padding:  1rem 5rem;
-  font-size: 1.4rem;
+
 }
 
 .bar-stack {
@@ -67,8 +66,27 @@ img {
   border-radius: .3rem;
   display: inline-block;
   height: 2.5rem;
-  width: 1rem;
-  font-size: 1.4rem;
+  width: .8rem;
+}
+
+.bar-yellow {
+  transform: rotate(4deg);
+  background: #edd63c;
+  border-radius: .3rem;
+  display: inline-block;
+  height: 2.5rem;
+  width: .8rem;
+}
+
+.slash-health-bar {
+  display: inline-block;
+  position: fixed;
+  left: 29.3rem;
+  top: 83%;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 3rem;
+  color: #1a81df;
+  transform: rotate(1deg);
 }
 
 .health-text__left {
@@ -88,7 +106,7 @@ img {
 #slash {
   color: #1a81df;
   font-family: 'Exo 2', sans-serif;
-  font-size: 2.2rem;
+  font-size: 2rem;
 
 }
 
@@ -147,13 +165,13 @@ img {
   margin: 1rem;
   display: inline-block;
   position: absolute;
-  right: 1rem;
+  right: 2rem;
   top: 35rem;
 }
 
 #gun {
   max-width: 14rem;
-  transform: rotate(13deg);
+  transform: rotate(16deg);
   display: inline-block;
 }
 
@@ -177,8 +195,18 @@ img {
 #slash-two {
   color: #1a81df;
   font-family: 'Exo 2', sans-serif;
-  font-size: 2.2rem;
+  font-size: 2rem;
+}
 
+.slash-gun {
+  display: inline-block;
+  position: fixed;
+  right: 1.5rem;
+  top: 85%;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 4.5rem;
+  color: #1a81df;
+  transform: rotate(4deg);
 }
 
 /* Next to Icons */
@@ -188,8 +216,8 @@ img {
   display: inline-block;
   position: absolute;
   margin: 0 -3.5rem;
-  right: 21rem;
-  top: 35rem;
+  right: 20.5rem;
+  top: 36rem;
   transform: rotate(3deg);
 }
 
@@ -205,5 +233,28 @@ img {
   max-width: 3.5rem;
   border-radius: .5rem;
   border: solid 0.2rem lightgray;
-  float: right;
+}
+
+.bottom-icons {
+  background: black;
+  position: absolute;
+  display: inline-block;
+  margin: 0 -3.5rem;
+  right: 20.5rem;
+  top: 30rem;
+  transform: rotate(3deg);
+}
+
+.left-sm {
+  max-width: 2rem;
+  border-radius: .5rem;
+  border: solid 0.1rem lightgrey;
+  margin: 0.2rem;
+}
+
+.right-sm {
+  max-width: 2rem;
+  border-radius: .5rem;
+  border: solid 0.1rem lightgrey;
+  margin: 0.2rem;
 }
