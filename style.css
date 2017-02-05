@@ -13,7 +13,7 @@ ul {
 }
 
 img {
-  max-width: 100%;
+  /*max-width: 100%;*/
 }
 
 .section {
@@ -23,6 +23,12 @@ img {
 .section__pic {
   min-height: 100vh;
   background: url('');
+  max-width: 100%;
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
 }
 
 /*Avatar -- Left.Bottom Side of Screen*/
@@ -32,7 +38,6 @@ img {
   display: inline-block;
   left: 1rem;
   margin: 0.2rem;
-  padding: 0.2rem;
   top: 34rem;
 }
 
@@ -95,12 +100,13 @@ img {
   display: inline;
 }
 
-#skull {
+.skull {
   display: inline;
-  /*max-width: 3.8rem;*/
+  max-width: 5rem;
+
 }
 
-#text {
+.text {
     text-align: center;
     font-family: Arial;
     font-size: 1.5rem;
@@ -109,12 +115,35 @@ img {
     display: inline;
 }
 
-.text-top {
-
+.eliminated-text {
+  display: inline-block;
+  color: red;
 }
 
-.text-bottom {
-
+.eliminated-text__bottom {
+  display: inline-block;
+  color: red;
 }
 
 /*Bottom-Right Side*/
+
+.avatar-bottom-right {
+  font-size: 1rem;
+  color: ##64b322;
+  display: inline-block;
+  position: fixed;
+  top: 75%;
+  left: 30%;
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.gun {
+  margin: 0;
+  width: 5rem;
+  color: red;
+}
+
+.ammo-count {
+
+}
