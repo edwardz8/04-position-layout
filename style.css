@@ -36,18 +36,17 @@ img {
 .avatar-bottom {
   position: fixed;
   display: inline-block;
-  left: 1rem;
-  margin: 0.2rem;
+  left: 0.5rem;
+  margin: 1rem;
   top: 34rem;
 }
 
 .avatar {
     margin: 0;
-    width: 5rem;
+    width: 6rem;
 }
 
 .health-stats {
-  font-size: 1rem;
   color: #807b8f;
   display: inline-block;
   position: fixed;
@@ -59,28 +58,27 @@ img {
 
 .bar-stack {
   display: inline-block;
+  transform: rotate(-3deg);
 }
 
 .bar {
+  transform: rotate(4deg);
   background: #d2d2d2;
-  border: #d2d2d2 solid 0.2rem;
   border-radius: .3rem;
   display: inline-block;
   height: 2.5rem;
   width: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .health-text__left {
-  font-family: Arial;
   font-size: 2rem;
-  font-weight: bold;
   color: #4b4b4b;
   font-family: 'Exo 2', sans-serif;
 
 }
 
-#two-fifty {
+.two-fifty {
   font-size: 3rem;
   font-family: 'Exo 2', sans-serif;
   font-weight: bolder;
@@ -142,23 +140,51 @@ img {
   transform: translate(-50%, -75%);
 }
 
-/*Bottom-Right Side*/
+
+/*Bottom-Right Sector*/
 
 .avatar-bottom-right {
-  background: black;
-  margin: 0;
+  background: lightgrey;
+  margin: 1rem;
   display: inline-block;
-  position: fixed;
-  right: 1rem;
-  bottom: 1rem;
-
+  position: absolute;
+  right: 3.8rem;
+  top: 36rem;
 }
 
 #gun {
-  margin: 0;
-  max-width: 15rem;
+  max-width: 11rem;
+  transform: rotate(10deg);
+  display: inline-block;
 }
 
 .ammo-count {
+  display: inline-block;
+  position: fixed;
+  right: 0.5rem;
+  top: 77%;
+  padding: -1rem;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  color: #4b4b4b;
+}
+
+.forty {
+  font-size: 3rem;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bolder;
+  color: #4b4b4b;
+  display: inline-block;
+}
+
+#slash-two {
+  color: #1a81df;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 2.2rem;
+
+}
+
+.icons {
 
 }
