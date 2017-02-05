@@ -1,6 +1,6 @@
 body {
   margin: 0;
-
+  font-family: Arial;
 }
 
 ul {
@@ -23,7 +23,6 @@ img {
 .section__pic {
   min-height: 100vh;
   background: url('');
-  color: green;
 }
 
 /*Avatar -- Left.Bottom Side of Screen*/
@@ -47,25 +46,41 @@ img {
   color: #807b8f;
   display: inline-block;
   position: fixed;
-  top: 70%;
+  top: 75%;
   margin: 0;
-  padding:  2rem 6rem;
+  padding:  1rem 6rem;
   font-size: 1.4rem;
 }
 
 .bar-stack {
   display: inline-block;
-  height: 2rem;
 }
 
 .bar {
   background: #bad050;
   border: #a3a3a3 solid 0.2rem;
-  font-size: 2rem;
+  border-radius: .3rem;
+  display: inline-block;
+  height: 2rem;
+  font-size: 1.5rem;
 }
 
 .health-text__left {
-  color: red;
+  font-family: Arial;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4b4b4b;
+}
+
+#two-fifty {
+  font-family: Arial;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #4b4b4b;
+}
+
+#slash {
+  color: #1a81df;
 }
 
 /*Center Sector*/
@@ -73,14 +88,33 @@ img {
 .center-wrapper {
   position: fixed;
   margin: 0.5rem;
-  padding: 1rem;
+  padding: 0.5rem;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -75%);
+  display: inline;
 }
 
-.skull {
- max-width: 4rem;
+#skull {
+  display: inline;
+  /*max-width: 3.8rem;*/
+}
+
+#text {
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    display: inline;
+}
+
+.text-top {
+
+}
+
+.text-bottom {
+
 }
 
 /*Bottom-Right Side*/
