@@ -13,16 +13,17 @@ ul {
 }
 
 img {
-  /*max-width: 100%;*/
+  max-width: 100%;
 }
 
 .section {
-  padding: 1rem;
+
+  padding: .5rem;
 }
 
 .section__pic {
   min-height: 100vh;
-  background: url('');
+  background: url('http://gearnuke.com/wp-content/uploads/2016/06/overwatch-gameplay-2.jpg') no-repeat center;
   max-width: 100%;
 }
 
@@ -211,6 +212,8 @@ img {
 
 /* Next to Icons */
 
+/*.icon__group {}*/
+
 .icon {
   background: black;
   display: inline-block;
@@ -221,40 +224,27 @@ img {
   transform: rotate(3deg);
 }
 
-.next-to-icon {
+.next-to-icon , .next-to-icon__right {
   margin: 0.2rem;
   max-width: 3.5rem;
   border-radius: .5rem;
   border: solid 0.2rem lightgrey;
 }
 
-.next-to-icon__right {
-  margin: 0.2rem;
-  max-width: 3.5rem;
-  border-radius: .5rem;
-  border: solid 0.2rem lightgray;
-}
 
 .bottom-icons {
   background: black;
-  position: fixed;
-  margin: 0 -3.5rem;
-  padding: 0 2rem;
+  position: absolute;
   right: 20.5rem;
   top: 27rem;
-  transform: rotate(3deg);
+  /*transform: rotate(3deg);*/
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.left-sm {
-  max-width: 2rem;
-  border-radius: .5rem;
-  border: solid 0.1rem lightgrey;
-  margin: 0.2rem;
-}
-
-.right-sm {
-  max-width: 2rem;
-  border-radius: .5rem;
-  border: solid 0.1rem lightgrey;
-  margin: 0.2rem;
+.left-sm , .right-sm {
+      border: .2rem solid blue;
 }
